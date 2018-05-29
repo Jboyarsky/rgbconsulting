@@ -1,66 +1,98 @@
 <!DOCTYPE html>
 <html>
-<title>Let Us, Help You</title>
-<div class="w3-black" id="services">
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-            <h2 class="w3-wide w3-center">Our Services</h2>
-            <p class="w3-opacity w3-center"><i>If it's related to business or technology, we can help.</i></p><br>
-
-            <!-- <ul class="w3-ul w3-border w3-white w3-text-grey">
-                <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-                <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-                <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-            </ul> -->
-
-            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-                <div class="w3-third w3-margin-bottom">
-                    <div class="w3-container w3-white">
-                        <p><b>Process Improvement</b></p>
-                        <p class="w3-opacity">Using our diverse background and unique perspectives, we provide process improvement methods from documentation to packaging</p>
-                       <!--  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button> -->
-                    </div>
-                </div>
-                <div class="w3-third w3-margin-bottom">
-                    <div class="w3-container w3-white">
-                        <p><b>Automation</b></p>
-                        <p class="w3-opacity">We all have technical backgrounds ranging from engineering to computer science and will find ways to make your operations more efficient and less expensive.</p>
-                        <!-- <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button> -->
-                    </div>
-                </div>
-                <div class="w3-third w3-margin-bottom">
-                    <div class="w3-container w3-white">
-                        <p><b>Data Analytics</b></p>
-                        <p class="w3-opacity">Using a variety of different quantitative methods we provide unimaginable insights into what makes your business tick.</p>
-                        <!-- <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button> -->
-                    </div>
-                </div>
-                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-                <div class="w3-third w3-margin-bottom">
-                    <div class="w3-container w3-white">
-                        <p><b>Custom Software</b></p>
-                        <p class="w3-opacity">Our team is exceptionally skilled at coding. We can create software from mobile apps to machine learning. </p>
-                       <!--  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button> -->
-                    </div>
-                </div>
-                <div class="w3-third w3-margin-bottom">
-                    <div class="w3-container w3-white">
-                        <p><b>Supply Chain</b></p>
-                        <p class="w3-opacity">Dealing with vendors and distributors can be hassel, but fortunately, we can make it a whole lot easier. </p>
-                        <!-- <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button> -->
-                    </div>
-                </div>
-                <div class="w3-third w3-margin-bottom">
-                    <div class="w3-container w3-white">
-                        <p><b>Logistics</b></p>
-                        <p class="w3-opacity">From customer fulfillment to operations, we can help find the right solution for your logistics needs.</p>
-
-                        <!-- <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button> -->
-                    </div>
-                </div>
-
+<title>Services</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     body {font-family: "Lato", sans-serif}
     .mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="#missionstatement" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Mission Statement</a>
+        <a href="./services.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Services</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <!--   <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Add whatever I want here</a>
+                <a href="#" class="w3-bar-item w3-button">Extras</a>
+                <a href="#" class="w3-bar-item w3-button">Media</a> -->
+            </div>
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#missionstatement" class="w3-bar-item w3-button w3-padding-large">People</a>
+    <a href="#services" class="w3-bar-item w3-button w3-padding-large">Services</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us!!!</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <!-- <div class=""w3-display-container w3-center"">  -->
+<div class="relative">
+        <img src="roundtableart1.jpg" style="width:100%">
+    </div>
+</div>
+
+        
+
+                  
+
+  <!--   </div>
+   <!--  <div class="mySlides w3-display-container w3-center">
+        <img src="/w3images/ny.jpg" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>New York</h3>
+            <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+        </div> -->
+  <!--   </div>
+    <div class="mySlides w3-display-container w3-center">
+        <img src="/w3images/chicago.jpg" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Chicago</h3>
+            <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+        </div>
+    </div> -->
+
+    <!-- The Band Section -->
+    <div class="w3-black" id="missionstatement">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide">Mission Statement</h2>
+        <p class="w3-justify">Our mission is to provide innovative, modern, and impactful consulting services to meet our client needs. Through clear communication, data, and analytics we strive to find what within your business could be better. Our unique lens will provide high quality insights in order to save you money, make your business more efficient, and most importantly, make each one of our client’s work lives that much better.</p>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-third">
+                <p>Roberto Rojas</p>
+                <b>Founder, Principal Consultant </b>
+                <b> <br><a href="https://www.linkedin.com/in/robertojrojas/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_top%3BMrphaPSRRCesmozDyzTE5Q%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_search_srp_top-search_srp_result&lici=LoGL8jYJT2aUkiXFijhdTA%3D%3D.asp" target="_blank">Linkedin</a></br></i>
+            </div>
+            <div class="w3-third">
+                <p>Daniel Gutierrez</p>
+                <b>Founder, Principal Consultant </b>
+                <b> <b><a href="https://www.linkedin.com/in/daniel-gutierrez-271396aa/.asp" target="_blank">Linkedin</a></b></i>
+            </div>
+            <div class="w3-third">
+                <p>Jonathan Boyarsky</p>
+                <b>Founder, Principal Consultant  </b><b><a href="https://www.linkedin.com/in/jonathan-boyarsky-4b4a03a6/.asp" target="_blank">Linkedin</a></b>
+            </div>
+        </div>
+    </div>
+
 </style>
 </script>
 
