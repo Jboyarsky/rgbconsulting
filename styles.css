@@ -1,6 +1,5 @@
-#serviceElement {
-	max-height: 1500
-	max-width: 220;
+div.ex1 {
+    max-width: 150px;
 }
 
 #image1 {
